@@ -17,7 +17,7 @@ class Node
 end
 
 class Tree
-  attr_accessor :rootB
+  attr_accessor :root
   def initialize(array)
     @root = build_tree(array)
   end
